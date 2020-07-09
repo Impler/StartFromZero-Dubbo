@@ -4,7 +4,7 @@ import com.study.dubbo.service.api.GreetingsService;
 import java.io.IOException;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class ConsumerApp {
+public class ConsumerSpringApp {
 
   public static void main(String[] args) throws IOException {
     ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("consumer.xml");
